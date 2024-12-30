@@ -1,0 +1,71 @@
+/* General reset and font setup */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    color: skyblue;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Container styling */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: yellow;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styles */
+h1 {
+    color: black;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Box styling for divs */
+.box {
+    background-color: red; 
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(78, 214, 37, 0.1);
+}
+
+/* Descendant selector: style <span> inside a <div> */
+div span {
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/* Child selector: style <p> that are direct children of a <div> */
+div > p {
+    color: blue 
+    font-size: 1.1rem;
+    margin-top: 10px;
+}
+
+/* Adjacent sibling selector: style <p> immediately following an <h1> */
+h1 + p {
+    font-weight: bold;
+    color: green 
+    margin-top: 10px;
+}
+
+/* General sibling selector: style all <p> elements after an <h1> */
+h1 ~ p {
+    color: orange;
+    font-size: 1.1rem;
+    margin-top: 5px;
+}

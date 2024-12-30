@@ -1,0 +1,27 @@
+h1{
+    color: orange;
+}
+
+
+.heading{
+    color: red;
+    background-color: yellow;
+}
+
+
+.para{
+    color: blue;
+    background-color: green;
+}
+
+
+.box {
+    background-color: rgb(230, 173, 216);
+    padding: 20px;
+    margin: 10px;
+}
+
+/* ID selector to uniquely style a specific <div> */
+#special-box {
+    border: 3px solid red;
+}

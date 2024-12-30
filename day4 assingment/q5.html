@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combinator Selectors Example</title>
+    <link rel="stylesheet" href="q5.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Combinator Selectors Demo</h1>
+
+        <div class="box">
+            <span>This span is inside a div and will be styled with the descendant selector.</span>
+        </div>
+
+        <div class="box">
+            <p>This is a paragraph that is a direct child of the div and will be styled with the child selector.</p>
+            <p>This paragraph is inside the div but won't be styled by the child selector because it's not a direct child.</p>
+        </div>
+
+        <div class="box">
+            <h1>This is a heading</h1>
+            <p>This paragraph immediately follows the <h1> and will be styled with the adjacent sibling selector.</p>
+        </div>
+
+        <div class="box">
+            <h1>Another Heading</h1>
+            <p>This paragraph follows the previous <h1> and will be styled with the general sibling selector.</p>
+            <p>This is another paragraph after the second <h1> and will also be styled with the general sibling selector.</p>
+        </div>
+    </div>
+
+</body>
+</html>
